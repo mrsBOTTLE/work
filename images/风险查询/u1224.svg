@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="10px" height="14px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="1" y1="0" x2="1" y2="6" id="LinearGradient940">
+      <stop id="Stop941" stop-color="#3048c2" offset="0" />
+      <stop id="Stop942" stop-color="#7e93ff" offset="1" />
+    </linearGradient>
+    <filter x="365px" y="60px" width="10px" height="14px" filterUnits="userSpaceOnUse" id="filter943">
+      <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.09803921568627451 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget944">
+      <path d="M 1.9151515104166643 5.155080215992646  C 1.9151515104166643 5.5980893747646  1.5081376455665425 5.957219255514703  1.00606059895833 5.957219255514703  C 0.5039835523501173 5.957219255514703  0.09696968749999921 5.5980893747646  0.096969687500003 5.155080215992646  L 0.09696968749999921 0.8770053538602942  C 0.09696968749999921 0.43399619508834064  0.5039835523501173 0.07486631433823523  1.00606059895833 0.07486631433823523  C 1.5081376455665425 0.07486631433823523  1.9151515104166643 0.43399619508834064  1.9151515104166643 0.8770053538602942  L 1.9151515104166643 5.155080215992646  Z " fill-rule="nonzero" fill="url(#LinearGradient940)" stroke="none" transform="matrix(1 0 0 1 369 63 )" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -365 -60 )">
+    <use xlink:href="#widget944" filter="url(#filter943)" />
+    <use xlink:href="#widget944" />
+  </g>
+</svg>

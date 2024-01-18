@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="367px" height="98px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient cx="-48.571428571426964" cy="384.8496240601497" r="433.70423238068315" gradientTransform="matrix(0.9638944736306284 0.26628451645623813 -0.2662845164562383 0.963894473630629 100.72579905613836 26.829017620477423 )" gradientUnits="userSpaceOnUse" id="RadialGradient727">
+      <stop id="Stop728" stop-color="#7f92fa" stop-opacity="0.6980392156862745" offset="0" />
+      <stop id="Stop729" stop-color="#354fd8" offset="1" />
+    </radialGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="195.5" y1="490" x2="195.5" y2="400" id="LinearGradient730">
+      <stop id="Stop731" stop-color="#bfc7f4" offset="0" />
+      <stop id="Stop732" stop-color="#7e93ff" stop-opacity="0" offset="1" />
+    </linearGradient>
+    <filter x="12px" y="397px" width="367px" height="98px" filterUnits="userSpaceOnUse" id="filter733">
+      <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.09803921568627451 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget734">
+      <path d="M 16.5 408  A 7.5 7.5 0 0 1 24 400.5 L 367 400.5  A 7.5 7.5 0 0 1 374.5 408 L 374.5 482  A 7.5 7.5 0 0 1 367 489.5 L 24 489.5  A 7.5 7.5 0 0 1 16.5 482 L 16.5 408  Z " fill-rule="nonzero" fill="url(#RadialGradient727)" stroke="none" />
+      <path d="M 16.5 408  A 7.5 7.5 0 0 1 24 400.5 L 367 400.5  A 7.5 7.5 0 0 1 374.5 408 L 374.5 482  A 7.5 7.5 0 0 1 367 489.5 L 24 489.5  A 7.5 7.5 0 0 1 16.5 482 L 16.5 408  Z " stroke-width="1" stroke="url(#LinearGradient730)" fill="none" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -12 -397 )">
+    <use xlink:href="#widget734" filter="url(#filter733)" />
+    <use xlink:href="#widget734" />
+  </g>
+</svg>

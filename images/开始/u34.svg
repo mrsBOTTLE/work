@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="517px" height="43px" viewBox="721 557  517 43" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <image preserveAspectRatio="none" style="overflow:visible" width="517" height="43" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgUAAAArCAYAAADopftiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAPISURBVHhe7d3LjlRVGIbhRkUUPGA0qDN14MSBE+PQ+78KExPQqPHISUHF/21rd6rbbixACF37eZIvbDoVmtn6ap32hYMn8+Lk2uT1zfNLW3mwCQDw/7s/+WPy5+b55uTHzd8fy+OUggb/DybvT96Y/Db5dXJ78vtk+U/2p1IAAE9HY/jFSV/E+/PS5PKkUvDz5MaksXhnj1IK+uyHk48nDfq1kZ8mNZOKQT/760QAgKfnhROpILwyaQb/yqRx+uvJTl/Sdy0F704+/efx4PvJt5PtMmBGAACeD43tlYNmDprRvzpp3P5h8lC7lIJPJh9Nvpt8M6l13Jk89poFAPBMtOTfkkLFoBn8lhTO9LBSUMv4bPLW5Pqkf6jZATMDAHB+NNZXDpo1aEmh5YRTv9j3odNUCL6YNPXw1aRS0GZCswMAcP40S9BhgL7Ud2rw1ub5mLNKweeTCsGXkxpFJwvMDgDA+dU4fm/SiYSWExrbjzmtFLSH4L1JMwQVgrsThQAA9sOyDaDlhMb4Ix1f2NYpgzYVtlzQpkKFAAD2S+N643szBq/1g8V2KWgjQscOO2XQpsJT1xsAgHOv8b1xvhWDo0MH26WgGYI0Q9ApA5cPAcD+apzvioFOJBxaSkFNoZsKu5iomwpbbwAA9tuyv+CwDyyloHcZtLbQjUf2EQDAOjTedztxVyMflYJOGzRD4C4CAFiXxv3DyYBKQUsHb066vriLDQCAdWkZ4UKloJuNmjpYrjAGANblcJWgUtDrFZc3HtpLAADr00mEB8vyQWcVzRIAwIpVCnr5UXsJ3EsAACu2lIKOIyoFALBiSylo6UApAIAVqxS0dHB0RhEAWKdKQbMEx16IAACsT6WgWYKWEHoGAFZqmSm4uHkGAFaqItD7Di5tngGAlaoI9M6Dy5OWEACAlVqWD9pX0GsTbTYEgPU5HP+XJYNfJr0DwWwBAKzPsVJwfXJl0t4CAGBdDu8q6n6CdJvhy5NOIdyduMgIANahWYLDcX/7xMGNydXJqxN7CwBg/x0VgiwzBYtmDN6Y3Nk8AwD769gkwMlS0NJBGw6bQeidCJYRAGA/HZslyMlSkJuTdyZ98F4/AAD2yr8KQU4rBbk9uTa5P+keAwBgP5xaCHJWKejDtyZtPOxZMQCA8+/MQrCrtydtPtw+qQAAnC/HNhWe5qyZgm1tPuz+gq5B7kTCEzUMAOCZqgzsNEPwn61hS5/t1sNUFHpfAgDw/NqpDCwepRQsWkbogqN+ybIR0ewBADwfGtuXMvBMx+flFwMA59rBwd+dVLneY4faKAAAAABJRU5ErkJggg==" id="widget681" />
+    <filter x="721px" y="557px" width="517px" height="43px" filterUnits="userSpaceOnUse" id="filter682">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="0" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.34901960784313724 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget683">
+      <use xlink:href="#widget681" x="721px" y="557px" />
+    </g>
+  </defs>
+  <use xlink:href="#widget683" filter="url(#filter682)" />
+  <use xlink:href="#widget683" />
+</svg>

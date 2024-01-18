@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="11px" height="11px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="1.5" y1="0" x2="1.5" y2="3" id="LinearGradient776">
+      <stop id="Stop777" stop-color="#3048c2" offset="0" />
+      <stop id="Stop778" stop-color="#7e93ff" offset="1" />
+    </linearGradient>
+    <filter x="363px" y="52px" width="11px" height="11px" filterUnits="userSpaceOnUse" id="filter779">
+      <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.09803921568627451 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget780">
+      <path d="M 0.11101973684210079 1.5234375597889065  C 0.11101973684210079 2.3069007123038068  0.7461421106429902 2.942023086104696  1.5296052631578902 2.942023086104696  C 2.3130684156727903 2.942023086104696  2.9481907894736796 2.3069007123038068  2.9481907894736796 1.5234375597889065  C 2.9481907894736796 0.7399742876961912  2.3130684156727903 0.10485191389530182  1.5296052631578902 0.10485191389530182  C 0.7461421106429902 0.10485191389530182  0.11101973684210079 0.7399742876961912  0.11101973684210079 1.523437440211091  Z " fill-rule="nonzero" fill="url(#LinearGradient776)" stroke="none" transform="matrix(1 0 0 1 367 55 )" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -363 -52 )">
+    <use xlink:href="#widget780" filter="url(#filter779)" />
+    <use xlink:href="#widget780" />
+  </g>
+</svg>

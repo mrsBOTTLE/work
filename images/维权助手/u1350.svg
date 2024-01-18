@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="28px" height="28px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="11" y1="0" x2="11" y2="22" id="LinearGradient975">
+      <stop id="Stop976" stop-color="#3048c2" offset="0" />
+      <stop id="Stop977" stop-color="#7e93ff" offset="1" />
+    </linearGradient>
+    <filter x="33px" y="139px" width="28px" height="28px" filterUnits="userSpaceOnUse" id="filter978">
+      <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="1.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.3137254901960784 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget979">
+      <path d="M 11.039819014246323 21.99004525275735  C 17.08746197995268 21.99004525275735  21.99004526539522 17.08746196731481  21.99004526539522 11.039819001608455  C 21.99004526539522 4.992176035902097  17.08746197995268 0.08959275045955568  11.039819014246323 0.08959275045955568  C 4.9921760485399655 0.08959275045955568  0.08959276309742509 4.992176035902097  0.08959276309742509 11.039819001608455  C 0.08959276309742509 17.08746196731481  4.9921760485399655 21.99004525275735  11.039819014246323 21.99004525275735  Z M 11.039819014246325 19.999095020680144  C 6.091747499388288 19.999095020680144  2.080542995174632 15.987890516466491  2.080542995174632 11.039819001608455  C 2.080542995174632 6.091747486750418  6.091747499388288 2.0805429825367625  11.039819014246325 2.0805429825367625  C 15.987890529104357 2.0805429825367625  19.999095033318017 6.091747486750418  19.999095033318017 11.039819001608455  C 19.999095033318017 15.987890516466493  15.987890529104362 19.999095020680144  11.039819014246325 19.999095020680144  Z " fill-rule="nonzero" fill="url(#LinearGradient975)" stroke="none" transform="matrix(1 0 0 1 35 141 )" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -33 -139 )">
+    <use xlink:href="#widget979" filter="url(#filter978)" />
+    <use xlink:href="#widget979" />
+  </g>
+</svg>
